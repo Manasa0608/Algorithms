@@ -14,7 +14,6 @@ public class BinarySearch {
       mid = (left + right - 1) / 2;
       if (arr[mid] < element) {
         left = mid + 1;
-
       } else if (arr[mid] == element) {
         System.out.println("Element found at position:" + mid);
         break;
@@ -28,4 +27,3 @@ public class BinarySearch {
 
 /*Notes - O(log n) The algorithm divides the sorted array into 2 parts and checks for the side the element is present,
 looping through it identifies the element */
-
