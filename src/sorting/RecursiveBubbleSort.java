@@ -22,3 +22,5 @@ public class RecursiveBubbleSort {
     recursiveBubbleSort(arr, length - 1);
   }
 }
+
+/*NOTES _ last one gets sorted first, so go on reducing the length recursively*/
